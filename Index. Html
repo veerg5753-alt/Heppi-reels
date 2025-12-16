@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reels</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+  margin:0;
+  background:#000;
+}
+.reel{
+  height:100vh;
+}
+video{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+</style>
+</head>
+<body>
+
+<div class="reel">
+  <video src="video1.mp4" autoplay muted loop controls></video>
+</div>
+
+<div class="reel">
+  <video src="video2.mp4" muted loop controls></video>
+</div>
+
+</body>
+</html>
